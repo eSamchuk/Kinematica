@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Kinematics.Data.Abstraction;
 using PropertyChanged;
 
-namespace Kinematics.Data.Classes
+namespace Model.Classes
 {
-    class FieldAnalyzer
+    [AddINotifyPropertyChangedInterface]
+    public class NcepReader
     {
     }
 }

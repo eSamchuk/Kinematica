@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model.Abstraction;
+using Kinematics.Data.Abstraction;
 
 namespace Model.Classes
 {
-    public class TrajectoryBuilder : IBuilder
+    public class ProfileBuilder : IBuilder
     {
-        public void Build()
+        public decimal Build()
         {
             throw new NotImplementedException();
         }
 
-        public void Save()
+        public decimal Save()
         {
             throw new NotImplementedException();
         }

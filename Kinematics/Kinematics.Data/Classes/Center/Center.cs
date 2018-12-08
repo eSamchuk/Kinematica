@@ -7,7 +7,8 @@ using PropertyChanged;
 
 namespace Kinematics.Data.Classes
 {
-    class Center
+    [AddINotifyPropertyChangedInterface]
+    public class Center
     {
     }
 }

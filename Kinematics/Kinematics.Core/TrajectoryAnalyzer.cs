@@ -7,8 +7,8 @@ using PropertyChanged;
 
 namespace Kinematics.Data.Classes
 {
-
-    public class BuParameter
+    [AddINotifyPropertyChangedInterface]
+    public class TrajectoryAnalyzer
     {
     }
 }

@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kinematics.Data
+namespace Kinematics.Data.Abstraction
 {
-    public interface IReanalysisReader
+    public interface IBuilder
     {
-        Single[,,,] ReadReanalysis(int value);
+        decimal Build();
+        decimal Save();
     }
 }

@@ -7,7 +7,8 @@ using PropertyChanged;
 
 namespace Model.Classes
 {
-    class Trajectory
+    [AddINotifyPropertyChangedInterface]
+    public class Trajectory
     {
     }
 }
